@@ -6,7 +6,7 @@ target 'Bagel' do
   use_frameworks!
 
   pod 'CocoaAsyncSocket'
-  pod 'macOSThemeKit', '~> 1.2.0'
+  pod 'macOSThemeKit',      :git => "git@github.com:joonmanji/ThemeKit.git"
   pod 'Highlightr'
   
 end
